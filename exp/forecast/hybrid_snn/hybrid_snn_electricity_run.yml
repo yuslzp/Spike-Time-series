@@ -1,0 +1,39 @@
+_base_:
+- ../model/hybrid_snn.yml
+- ../dataset/electricity-v2.yml
+_custom_imports_:
+- HybridSNN.network
+- HybridSNN.dataset
+- HybridSNN.runner
+
+data:
+  raw_label: False
+  window: 168
+  horizon: 24
+  train_ratio: 0.6
+  test_ratio: 0.2
+
+runner:
+  type: hybrid_ts
+  task: regression
+  optimizer: Adam
+  lr: 0.0001
+  weight_decay: 1e-5
+  loss_fn: mse
+  metrics: [r2, rrse]
+  observe: loss
+  lower_is_better: True
+  max_epoches: 1000
+  early_stop: 30
+  batch_size: 48
+  aggregate: True
+  mlp_head: True
+  viz_every: 10
+  spike_lambda: 0.005
+  wandb_enabled: true
+  wandb_project: HybridSNN
+  wandb_run_name: electricity_hybrid
+
+runtime:
+  seed: 42
+  output_dir: /home/yuslzp/advanced_ml_course_project/outputs/hybrid_snn_run_electricity

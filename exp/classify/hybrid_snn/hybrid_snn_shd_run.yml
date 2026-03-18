@@ -1,0 +1,50 @@
+_custom_imports_:
+- SeqSNN.network
+- SeqSNN.dataset
+- SeqSNN.runner
+
+data:
+  type: SHDDataset
+  file: /home/yuslzp/advanced_ml_course_project/shd_train.h5
+  test_file: /home/yuslzp/advanced_ml_course_project/shd_test.h5
+  num_time_bins: 100
+  num_neurons: 700
+  train_ratio: 0.9        # train+valid split of shd_train.h5 (no test held out)
+  test_ratio: 0.0
+  adaptive_binning: true
+  spike_count: true
+
+network:
+  type: HybridSNN
+  dim: 128
+  d_ff: 256
+  heads: 8
+  depths: 2
+  num_steps: 8              # 100 bins / 8 steps = 12.5 bins/step; better temporal resolution for spike data
+  encoder_type: delta_conv
+  spike_lambda: 0.005
+
+runner:
+  type: hybrid_ts
+  task: multiclassification
+  optimizer: Adam
+  lr: 0.0001
+  weight_decay: 1e-5
+  loss_fn: cross_entropy
+  metrics: [accuracy]
+  observe: loss
+  lower_is_better: True
+  max_epoches: 200
+  early_stop: 20
+  batch_size: 64
+  out_size: 20
+  aggregate: True
+  viz_every: 5
+  spike_lambda: 0.005
+  wandb_enabled: true
+  wandb_project: HybridSNN
+  wandb_run_name: shd_hybrid
+
+runtime:
+  seed: 42
+  output_dir: /home/yuslzp/advanced_ml_course_project/outputs/hybrid_snn_run_shd

@@ -1,0 +1,17 @@
+torch
+protobuf==4.23
+utilsd
+click
+sktime
+tqdm
+tensorboard
+numba
+numpy
+scikit_learn==1.3
+pandas==2.1
+snntorch
+spikingjelly
+tables
+
+[dev]
+pylint
