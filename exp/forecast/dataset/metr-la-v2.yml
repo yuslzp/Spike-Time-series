@@ -1,0 +1,26 @@
+data:
+  type: TSMSDataset
+  file: METR-LA.h5
+  window: 12
+  horizon: 6
+  train_ratio: 0.7
+  test_ratio: 0.1
+  normalize: 4                           # per-column z-score (mode 4)
+  missing_value_strategy: interpolate    # zeros->NaN, then linear interpolate
+runner:
+  type: ts
+  task: regression
+  optimizer: Adam
+  lr: 0.001
+  weight_decay: 0.0
+  loss_fn: mse
+  metrics: [r2, rrse]
+  observe: loss
+  lower_is_better: True
+  max_epoches: 1000
+  early_stop: 30
+  batch_size: 1024
+  aggregate: True
+runtime:
+  seed: 42
+  use_cuda: true

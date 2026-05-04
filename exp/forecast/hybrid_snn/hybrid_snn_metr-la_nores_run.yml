@@ -1,0 +1,5 @@
+_base_:
+- ./hybrid_snn_metr-la_run.yml
+
+runner:
+  forecast_residual: false

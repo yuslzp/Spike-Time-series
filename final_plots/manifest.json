@@ -1,0 +1,1254 @@
+{
+  "generated_from": {
+    "final_method_root": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert",
+    "ablation_roots": [
+      "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40",
+      "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual",
+      "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual"
+    ]
+  },
+  "counts": {
+    "final_runs": 5,
+    "ablation_runs": 21,
+    "copied_files": 247,
+    "missing_expected_files": 0
+  },
+  "copied_files": [
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/viz/epoch_0055/firing_rates.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/viz_final_epoch/firing_rates.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/viz/epoch_0055/branch_firing_rates.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/viz_final_epoch/branch_firing_rates.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/viz/epoch_0055/dead_neuron_fraction.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/viz_final_epoch/dead_neuron_fraction.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/viz/epoch_0055/encoder_comparison.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/viz_final_epoch/encoder_comparison.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/viz/epoch_0055/init_tslif_compartments.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/viz_final_epoch/init_tslif_compartments.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/viz/epoch_0055/delta_density.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/viz_final_epoch/delta_density.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/viz/epoch_0055/conv_density.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/viz_final_epoch/conv_density.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/viz/epoch_0055/block_0_attn.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/viz_final_epoch/block_0_attn.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h24_delta_conv_seed40/viz/epoch_0055/block_0_q_density.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h24_delta_conv_seed40/viz_final_epoch/block_0_q_density.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/viz/epoch_0105/firing_rates.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/viz_final_epoch/firing_rates.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/viz/epoch_0105/branch_firing_rates.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/viz_final_epoch/branch_firing_rates.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/viz/epoch_0105/dead_neuron_fraction.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/viz_final_epoch/dead_neuron_fraction.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/viz/epoch_0105/encoder_comparison.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/viz_final_epoch/encoder_comparison.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/viz/epoch_0105/init_tslif_compartments.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/viz_final_epoch/init_tslif_compartments.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/viz/epoch_0105/delta_density.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/viz_final_epoch/delta_density.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/viz/epoch_0105/conv_density.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/viz_final_epoch/conv_density.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/viz/epoch_0105/block_0_attn.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/viz_final_epoch/block_0_attn.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/electricity_h6_delta_conv_seed40/viz/epoch_0105/block_0_q_density.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/electricity_h6_delta_conv_seed40/viz_final_epoch/block_0_q_density.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/viz/epoch_0055/firing_rates.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/viz_final_epoch/firing_rates.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/viz/epoch_0055/branch_firing_rates.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/viz_final_epoch/branch_firing_rates.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/viz/epoch_0055/dead_neuron_fraction.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/viz_final_epoch/dead_neuron_fraction.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/viz/epoch_0055/encoder_comparison.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/viz_final_epoch/encoder_comparison.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/viz/epoch_0055/init_tslif_compartments.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/viz_final_epoch/init_tslif_compartments.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/viz/epoch_0055/delta_density.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/viz_final_epoch/delta_density.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/viz/epoch_0055/conv_density.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/viz_final_epoch/conv_density.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/viz/epoch_0055/block_0_attn.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/viz_final_epoch/block_0_attn.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h24_delta_conv_seed40/viz/epoch_0055/block_0_q_density.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h24_delta_conv_seed40/viz_final_epoch/block_0_q_density.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/viz/epoch_0055/firing_rates.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/viz_final_epoch/firing_rates.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/viz/epoch_0055/branch_firing_rates.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/viz_final_epoch/branch_firing_rates.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/viz/epoch_0055/dead_neuron_fraction.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/viz_final_epoch/dead_neuron_fraction.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/viz/epoch_0055/encoder_comparison.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/viz_final_epoch/encoder_comparison.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/viz/epoch_0055/init_tslif_compartments.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/viz_final_epoch/init_tslif_compartments.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/viz/epoch_0055/delta_density.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/viz_final_epoch/delta_density.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/viz/epoch_0055/conv_density.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/viz_final_epoch/conv_density.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/viz/epoch_0055/block_0_attn.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/viz_final_epoch/block_0_attn.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/metr-la_h6_delta_conv_seed40/viz/epoch_0055/block_0_q_density.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/metr-la_h6_delta_conv_seed40/viz_final_epoch/block_0_q_density.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/shd_delta_conv_seed40/analysis/test_confusion_matrix.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/shd_delta_conv_seed40/analysis/test_confusion_matrix.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/shd_delta_conv_seed40/analysis/valid_confusion_matrix.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/shd_delta_conv_seed40/analysis/valid_confusion_matrix.png",
+      "source_set": "final_method_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/shd_delta_conv_seed40/viz/epoch_0125/firing_rates.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/shd_delta_conv_seed40/viz_final_epoch/firing_rates.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/shd_delta_conv_seed40/viz/epoch_0125/branch_firing_rates.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/shd_delta_conv_seed40/viz_final_epoch/branch_firing_rates.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/shd_delta_conv_seed40/viz/epoch_0125/dead_neuron_fraction.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/shd_delta_conv_seed40/viz_final_epoch/dead_neuron_fraction.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/shd_delta_conv_seed40/viz/epoch_0125/encoder_comparison.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/shd_delta_conv_seed40/viz_final_epoch/encoder_comparison.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/shd_delta_conv_seed40/viz/epoch_0125/init_tslif_compartments.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/shd_delta_conv_seed40/viz_final_epoch/init_tslif_compartments.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/shd_delta_conv_seed40/viz/epoch_0125/delta_density.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/shd_delta_conv_seed40/viz_final_epoch/delta_density.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/shd_delta_conv_seed40/viz/epoch_0125/conv_density.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/shd_delta_conv_seed40/viz_final_epoch/conv_density.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/shd_delta_conv_seed40/viz/epoch_0125/block_0_attn.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/shd_delta_conv_seed40/viz_final_epoch/block_0_attn.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_16_last_residual_revert/shd_delta_conv_seed40/viz/epoch_0125/block_0_q_density.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/final_method/shd_delta_conv_seed40/viz_final_epoch/block_0_q_density.png",
+      "source_set": "final_method_viz_final_epoch"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_aoha_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_aoha_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_aoha_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_aoha_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_aoha_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_aoha_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_aoha_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_aoha_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_aoha_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_aoha_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_aoha_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_aoha_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_aoha_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_aoha_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_aoha_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_aoha_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_softmax_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_softmax_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_softmax_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_softmax_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_softmax_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_softmax_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_softmax_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_softmax_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_softmax_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_softmax_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_softmax_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_softmax_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_softmax_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_softmax_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_softmax_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/attention_mode/abl_attn_softmax_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_causal_low_rank_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_causal_low_rank_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_causal_low_rank_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_causal_low_rank_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_causal_low_rank_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_causal_low_rank_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_causal_low_rank_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_causal_low_rank_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_causal_low_rank_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_causal_low_rank_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_causal_low_rank_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_causal_low_rank_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_causal_low_rank_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_causal_low_rank_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_causal_low_rank_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_causal_low_rank_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_none_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_none_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_none_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_none_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_none_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_none_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_none_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_none_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_none_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_none_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_none_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_none_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_none_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_none_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_none_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/channel_mixer/abl_mixer_none_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_off_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_off_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_off_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_off_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_off_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_off_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_off_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_off_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_off_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_off_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_off_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_off_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_off_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_off_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_off_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_off_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_on_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_on_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_on_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_on_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_on_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_on_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_on_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_on_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_on_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_on_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_on_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_on_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_on_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_on_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_on_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/spike_regularization/abl_spikereg_on_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_atan_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_atan_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_atan_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_atan_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_atan_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_atan_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_atan_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_atan_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_atan_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_atan_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_atan_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_atan_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_atan_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_atan_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_atan_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_atan_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_learnable_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_learnable_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_learnable_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_learnable_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_learnable_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_learnable_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_learnable_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_learnable_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_learnable_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_learnable_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_learnable_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_learnable_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_learnable_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_learnable_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_learnable_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/surrogates/abl_sg_learnable_fast_sigmoid_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_binary_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_binary_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_binary_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_binary_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_binary_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_binary_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_binary_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_binary_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_binary_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_binary_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_binary_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_binary_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_binary_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_binary_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_binary_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_binary_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_ternary_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_ternary_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_ternary_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_ternary_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_ternary_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_ternary_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_ternary_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_ternary_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_ternary_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_ternary_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_ternary_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_ternary_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_ternary_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_ternary_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_ternary_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_20_ablation_metrla_h6_seed40/value_spike/abl_value_ternary_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_delta_conv_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_gaf_metr-la_h6_gaf_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_22_ablation_metrla_h6_seed40_clean_encoder_noresidual/encoders/abl_encoder_merged_metr-la_h6_merged_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_aoha_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_aoha_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_aoha_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_aoha_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_aoha_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_aoha_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_aoha_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_aoha_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_aoha_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_aoha_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_aoha_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_aoha_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_aoha_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_aoha_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_aoha_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_aoha_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_softmax_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_softmax_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_softmax_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_softmax_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_softmax_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_softmax_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_softmax_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_softmax_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_softmax_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_softmax_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_softmax_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_softmax_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_softmax_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_softmax_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_softmax_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/attention_mode/abl_attn_nores_softmax_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_binary_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_binary_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_binary_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_binary_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_binary_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_binary_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_binary_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_binary_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_binary_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_binary_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_binary_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_binary_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_binary_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_binary_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_binary_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_binary_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_ternary_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_ternary_metr-la_h6_delta_conv_seed40/analysis/test_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_ternary_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_ternary_metr-la_h6_delta_conv_seed40/analysis/test_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_ternary_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_ternary_metr-la_h6_delta_conv_seed40/analysis/test_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_ternary_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_ternary_metr-la_h6_delta_conv_seed40/analysis/test_scatter.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_ternary_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_ternary_metr-la_h6_delta_conv_seed40/analysis/valid_forecast_traces.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_ternary_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_ternary_metr-la_h6_delta_conv_seed40/analysis/valid_horizon_errors.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_ternary_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_ternary_metr-la_h6_delta_conv_seed40/analysis/valid_residuals.png",
+      "source_set": "ablation_analysis"
+    },
+    {
+      "source": "/projects/SNN/leo_workspace/saved_stuff/HybridSNN_saved/HybridSNN_v5/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_ternary_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "dest": "/projects/SNN/leo_workspace/HybridSNN/final_plots/ablations/apr_28_ablation_metrla_h6_seed40_noresidual/value_spike/abl_value_nores_ternary_metr-la_h6_delta_conv_seed40/analysis/valid_scatter.png",
+      "source_set": "ablation_analysis"
+    }
+  ],
+  "missing_expected_files": []
+}

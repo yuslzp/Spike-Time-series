@@ -1,0 +1,52 @@
+_base_:
+- ../model/hybrid_snn.yml
+- ../dataset/electricity-v2.yml
+_custom_imports_:
+- HybridSNN.network
+- HybridSNN.dataset
+- HybridSNN.runner
+
+data:
+  raw_label: False
+  window: 168
+  horizon: 24
+  train_ratio: 0.6
+  test_ratio: 0.2
+
+runner:
+  type: hybrid_ts
+  task: regression
+  optimizer: Adam
+  lr: 0.0002
+  weight_decay: 1e-5
+  loss_fn: huber
+  metrics: [r2, rrse]
+  observe: loss
+  lower_is_better: True
+  max_epoches: 1000
+  early_stop: 30
+  batch_size: 48
+  aggregate: False
+  mlp_head: True
+  readout_mode: horizon_decoder
+  readout_hidden: 512
+  readout_dropout: 0.1
+  decoder_num_heads: 4
+  forecast_residual: true
+  viz_every: 5
+  spike_lambda: 0.02
+  num_workers: 0
+  persistent_workers: false
+  grad_clip: 1.0
+  scheduler_type: warmup_cosine
+  warmup_epochs: 5
+  min_lr_ratio: 0.1
+  ema_decay: 0.999
+  ema_eval: true
+  wandb_enabled: true
+  wandb_project: HybridSNN
+  wandb_run_name: electricity_hybrid
+
+runtime:
+  seed: 42
+  output_dir: /datasets/TSLIF/hybrid_snn_run_electricity
