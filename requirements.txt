@@ -1,0 +1,24 @@
+# Reproducible dependency set used for the HybridSNN experiments.
+# Python 3.10 is recommended.
+#
+# The PyTorch wheel below targets CUDA 12.1. For a CPU-only or different CUDA
+# setup, install the matching torch wheel from https://pytorch.org/get-started/
+# first, then install the remaining packages from this file.
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.5.1+cu121
+protobuf==4.23.0
+utilsd==0.0.18.post0
+click==8.3.2
+sktime==0.40.1
+tqdm==4.67.3
+tensorboard==2.20.0
+numba==0.65.0
+numpy==2.2.6
+scikit-learn==1.6.1
+pandas==2.2.3
+snntorch==0.9.4
+spikingjelly==0.0.0.0.14
+tables==3.10.1
+h5py==3.16.0
+wandb==0.25.1
